@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "My Minigame Extension",
+    "description": "A minigame extension for Chrome",
+    "version": "1.0",
+    "action": {
+        "default_popup": "game.html",
+        "default_title": "Minigame"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
